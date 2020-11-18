@@ -1,1 +1,1 @@
-# my-go-iris
+# my-go-web
