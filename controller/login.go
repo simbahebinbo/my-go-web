@@ -31,7 +31,7 @@ func GetUserNameInfo(w http.ResponseWriter, r *http.Request, _ httprouter.Params
 		fmt.Println(k, v)
 	}
 
-	u := UserNamePwd{"第三方都", "觉得舒服的"}
+	u := UserNamePwd{"username", "password"}
 	fmt.Println("UserNamePwd:", u)
 	json, _ := json.Marshal(u)
 	w.Write(json)
